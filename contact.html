@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Tanvi Mahapurush</title>
+    <meta name="description" content="Contact Tanvi Mahapurush">
+    <meta name="author" content="Tanvi Mahapurush">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/certifications.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <nav aria-label="Primary Navigation">
+             
+           <img src="images/dark-logo.webp" id="logo" loading="lazy" alt="Dark Logo" class="logo">
+             <button class="menu-toggle" id="menu-toggle" aria-label="Open Navigation menu">☰</button>
+           <ul id="nav-links">
+           <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+           <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light theme"> ☀️ </button>
+    </div>
+</header>
+<section id="contact">
+
+    <div class="container">
+
+        <div class="contact-row">
+
+            <div class="contact-left">
+
+                <h1>Contact Me</h1>
+
+                <p>
+                    Feel free to contact me for internships,
+                    collaborations and web development opportunities.
+                </p>
+
+                <div class="contact-info">
+
+                    <p>
+                        <strong>Email:</strong>
+                        <span class="hidden-link">
+                            <a href="mailto:tanvimm033@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>
+                                tanvimm033@gmail.com
+                            </a>
+                        </span>
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        <span class="hidden-link">
+                            <a href="tel:+916363294839">
+                                 <i class="fa-solid fa-phone"></i>
+                                +91 6363294839
+                            </a>
+                        </span>
+                    </p>
+
+                    <p>
+                        <strong>LinkedIn:</strong>
+                        <span class="hidden-link">
+                            <a href="https://www.linkedin.com/in/tanvi-mahapurush-9243991b8/" 
+                            target="_blank"  rel="noopener noreferrer">
+                               <i class="fa-brands fa-linkedin"></i>
+                                linkedin.com/in/tanvi-mahapurush-9243991b8
+                            </a>
+                        </span>
+                    </p>
+
+                    <p>
+                        <strong>GitHub:</strong>
+                        <span class="hidden-link">
+                            <a href="https://github.com/tanvi-jpeg"
+                               target="_blank" rel="noopener noreferrer">
+                               <i class="fa-brands fa-github"></i>
+                                github.com/tanvi-jpeg
+                            </a>
+                        </span>
+                    </p>
+
+                </div>
+
+                <a href="Resume.pdf" download class="btn">
+                    Download Resume
+                </a>
+
+            </div>
+
+            <div class="contact-right">
+
+                <form name="submit-to-google-sheet">
+
+                    <label for="name"><i class="fa-solid fa-user"></i> Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+
+                    <label  for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <label for="message"><i class="fa-solid fa-message"></i> Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Type your message..."
+                        required></textarea>
+
+                    <button type="submit" class="btn" id="submit-btn">
+                        Send Message
+                    </button>
+
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</section>
+   <p class="copyright">
+        © 2026 Tanvi Mahapurush. All Rights Reserved.
+    </p>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>

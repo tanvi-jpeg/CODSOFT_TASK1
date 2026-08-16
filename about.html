@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About | Tanvi Mahapurush </title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet"  href="css/home.css">
+        <link rel="stylesheet"  href="css/about.css">
+        </head>
+   <body>
+    <header>
+    <div class="container">
+        <nav aria-label="Primary Navigation">
+           <img src="images/dark-logo.webp" id="logo" loading="lazy" alt="Dark Logo" class="logo">
+              <button class="menu-toggle" id="menu-toggle" aria-label="Open Navigation menu">☰</button>
+           <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+           <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light theme"> ☀️ </button>
+    </div>
+</header>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.webp" loading="lazy" alt="Portrait of Tanvi Mahapurush">
+                    </div>
+                    <div class="about-col-2">
+                        <h2>About Me</h2>
+                       <p>
+                            I'm <strong>Tanvi Mahapurush</strong>, A Computer Science Engineering
+                            student passionate about Web Development,
+                            Artificial Intelligence, and Problem Solving.
+                         </p>
+                         
+                            <p>
+                            I enjoy building responsive websites,
+                            exploring AI technologies,
+                            and continuously improving my development skills through real-world projects.</p>
+          
+       <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills',this)">Skills</p>
+        <p class="tab-links" onclick="opentab('education',this)">Education</p>
+        <p class="tab-links" onclick="opentab('projects',this)">Projects</p>
+         </div>
+         <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>
+                <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS, <i class="fa-brands fa-js"></i> JavaScript</li>
+              <li><span>Programming</span><br><i class="fa-brands fa-python"></i> Python, <i class="fa-brands fa-java"></i> Java</li>
+             <li><span>Version Control</span><br><i class="fa-brands fa-git-alt"></i> Git, <i class="fa-brands fa-github"></i> GitHub</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+              <li><span><i class="fa-solid fa-building-columns"></i> Education</span>
+                <br>B.Tech in Computer Science</li>
+              <li><span><i class="fa-solid fa-graduation-cap"></i> Expected Graduation</span><br>2028</li>
+               <li><span><i class="fa-solid fa-book"></i> Current CGPA</span><br>8.72</li>
+            </ul>
+        </div>
+         <div class="tab-contents" id="projects">
+            <ul>
+              <li><span><i class="fa-solid fa-globe"></i> Personal Portfolio Website</span>
+                <br> Designed and developed a responsive personal portfolio using HTML, CSS, and JavaScript.</li>
+              <li><span><i class="fa-solid fa-robot"></i> Eldercare AI Chatbot</span>
+                <br> Developed a simple AI chatbot using Python and NLTK.</li>
+              <li><span><i class="fa-solid fa-cloud-sun"></i> Weather App</span>
+                <br> A responsive weather application that provides real-time weather updates for any city using a weather API.</li>
+              </ul>
+            </div> 
+        </div>
+        </div>
+        </div>
+    </section>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
