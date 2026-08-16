@@ -6,8 +6,7 @@ This project was created as part of my **CODSOFT Web Development Internship – 
 
 The task focuses on building a **personal portfolio website** using HTML, CSS, and JavaScript. The website presents my profile, skills, projects, certifications, resume, and contact information in a responsive and user-friendly interface.
 
-##
-🔗 Live Website: https://tanvi-jpeg.github.io/personal-portfolio/
+## 🔗 Live Website: https://tanvi-jpeg.github.io/personal-portfolio/
 
 ## 🌐 Repository
 
